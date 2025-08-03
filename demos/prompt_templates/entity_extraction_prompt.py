@@ -286,8 +286,8 @@ OpenAI will be a so-called “off-taker” in the project, meaning it will effec
         """,
     ]
 
-    for text in sample_texts:
-        print("Example 1: Simple entity extraction")
+    for j, text in enumerate(sample_texts):
+        print(f"Example {j}: Simple entity extraction")
         print(f"Text: {text}")
 
         try:
