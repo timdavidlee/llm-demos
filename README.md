@@ -193,7 +193,7 @@ python -m demos.prompt_templates.entity_extraction_prompt
 ```
 
 
-```
+```json
 Example 0: Simple entity extraction
 Text:
         John Smith works as a Software Engineer at Apple Inc. in San Francisco.
